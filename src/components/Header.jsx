@@ -1,6 +1,6 @@
 import React from 'react';
 import { Search, ShoppingCart, Bell, HelpCircle, Globe } from 'lucide-react';
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -34,7 +34,7 @@ const Header = () => {
         
         {/* Main header */}
         <div className="flex items-center py-4">
-          <a href="#" className="text-3xl font-bold mr-8">Shopee</a>
+          <a href="#" className="text-3xl font-bold mr-8 flex justify-between items-center"><img src='https://4.bp.blogspot.com/-ItRaVmM-PoU/XgrlppcnvcI/AAAAAAAABPY/Pbgwlu9Gb7UKLJFekuqk5__OPWQvqq08gCLcBGAsYHQ/s1600/shopee%2B1.png' className='h-16'></img>Shopee</a>
           <div className="flex-grow">
             <div className="relative">
               <input

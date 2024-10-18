@@ -1,11 +1,13 @@
+import autoprefixer from 'autoprefixer';
 import React from 'react';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <footer className="bg-white text-gray-700 py-8">
       <div className="container mx-auto px-4">
         {/* Main footer content */}
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="font-bold mb-4">CHĂM SÓC KHÁCH HÀNG</h3>
             <ul className="space-y-2">
@@ -39,13 +41,10 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-4">THANH TOÁN</h3>
             <div className="grid grid-cols-3 gap-2">
-              <img src="/placeholder/40/24" alt="Visa" className="h-6" />
+              <img src="https://static.vecteezy.com/system/resources/previews/020/975/572/original/visa-logo-visa-icon-transparent-free-png.png" alt="Visa" className="h-10" />
               <img src="/placeholder/40/24" alt="Mastercard" className="h-6" />
               <img src="/placeholder/40/24" alt="JCB" className="h-6" />
               <img src="/placeholder/40/24" alt="American Express" className="h-6" />
-              <img src="/placeholder/40/24" alt="COD" className="h-6" />
-              <img src="/placeholder/40/24" alt="Installment" className="h-6" />
-              <img src="/placeholder/40/24" alt="ShopeePay" className="h-6" />
             </div>
             <h3 className="font-bold mt-4 mb-2">ĐƠN VỊ VẬN CHUYỂN</h3>
             <div className="grid grid-cols-3 gap-2">
@@ -55,21 +54,10 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-4">THEO DÕI CHÚNG TÔI TRÊN</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-orange-500 flex items-center"><img src="/placeholder/20/20" alt="Facebook" className="mr-2 h-5 w-5" /> Facebook</a></li>
-              <li><a href="#" className="hover:text-orange-500 flex items-center"><img src="/placeholder/20/20" alt="Instagram" className="mr-2 h-5 w-5" /> Instagram</a></li>
-              <li><a href="#" className="hover:text-orange-500 flex items-center"><img src="/placeholder/20/20" alt="LinkedIn" className="mr-2 h-5 w-5" /> LinkedIn</a></li>
+              <li><a href="#" className="hover:text-orange-500 flex items-center"><span className='mr-1'><FaFacebook/></span> Facebook</a></li>
+              <li><a href="#" className="hover:text-orange-500 flex items-center"><span className='mr-1'><FaInstagram /></span> Instagram</a></li>
+              <li><a href="#" className="hover:text-orange-500 flex items-center"><span className='mr-1'><FaLinkedin /> </span> LinkedIn</a></li>
             </ul>
-          </div>
-          <div>
-            <h3 className="font-bold mb-4">TẢI ỨNG DỤNG SHOPEE NGAY THÔI</h3>
-            <div className="flex space-x-2">
-              <img src="/placeholder/80/80" alt="QR Code" className="w-20 h-20" />
-              <div className="space-y-2">
-                <img src="/placeholder/100/32" alt="App Store" className="h-8" />
-                <img src="/placeholder/100/32" alt="Google Play" className="h-8" />
-                <img src="/placeholder/100/32" alt="AppGallery" className="h-8" />
-              </div>
-            </div>
           </div>
         </div>
         
