@@ -1,5 +1,5 @@
-import autoprefixer from 'autoprefixer';
 import React from 'react';
+import '../assets/styles/Footer.css';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
@@ -40,11 +40,11 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="font-bold mb-4">THANH TOÁN</h3>
-            <div className="grid grid-cols-3 gap-2">
-              <img src="https://static.vecteezy.com/system/resources/previews/020/975/572/original/visa-logo-visa-icon-transparent-free-png.png" alt="Visa" className="h-10" />
-              <img src="/placeholder/40/24" alt="Mastercard" className="h-6" />
-              <img src="/placeholder/40/24" alt="JCB" className="h-6" />
-              <img src="/placeholder/40/24" alt="American Express" className="h-6" />
+            <div className="grid grid-cols-3 gap-2 justify-start items-center payment">
+              <img src="https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png" alt="Visa" className="h-10" />
+              <img src="https://www.mastercard.com.vn/content/dam/public/mastercardcom/vn/vi/logos/mc-logo-52.svg" alt="Mastercard" className="h-10" />
+              <img src="https://www.vn.jcb/vi/common/images/svg/jcb_emblem_logo.svg" alt="JCB" className="h-10" />
+              <img src="https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-bluebox-solid.svg" alt="American Express" className="h-10 items-center" />
             </div>
             <h3 className="font-bold mt-4 mb-2">ĐƠN VỊ VẬN CHUYỂN</h3>
             <div className="grid grid-cols-3 gap-2">

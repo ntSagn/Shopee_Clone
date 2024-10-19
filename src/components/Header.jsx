@@ -11,7 +11,6 @@ const Header = () => {
           <div className="flex space-x-4">
             <a href="#" className="hover:opacity-80">Kênh Người Bán</a>
             <a href="#" className="hover:opacity-80">Trở thành Người bán Shopee</a>
-            <a href="#" className="hover:opacity-80">Tải ứng dụng</a>
             <a href="#" className="hover:opacity-80 flex justify-between items-center">Kết nối<span className='pl-1'><FaFacebook /></span></a>
           </div>
           <div className="flex space-x-4 items-center">
@@ -31,10 +30,10 @@ const Header = () => {
             <a href="#" className="hover:opacity-80">Đăng Nhập</a>
           </div>
         </nav>
-        
+
         {/* Main header */}
         <div className="flex items-center py-4">
-          <a href="#" className="text-3xl font-bold mr-8 flex justify-between items-center"><img src='https://4.bp.blogspot.com/-ItRaVmM-PoU/XgrlppcnvcI/AAAAAAAABPY/Pbgwlu9Gb7UKLJFekuqk5__OPWQvqq08gCLcBGAsYHQ/s1600/shopee%2B1.png' className='h-16'></img>Shopee</a>
+          <a href="#" className="text-3xl font-semibold mr-8 flex justify-between items-center"><img src='https://4.bp.blogspot.com/-ItRaVmM-PoU/XgrlppcnvcI/AAAAAAAABPY/Pbgwlu9Gb7UKLJFekuqk5__OPWQvqq08gCLcBGAsYHQ/s1600/shopee%2B1.png' className='h-16'></img>Shopee</a>
           <div className="flex-grow">
             <div className="relative">
               <input
@@ -47,8 +46,8 @@ const Header = () => {
               </button>
             </div>
           </div>
-          <div className="ml-8">
-            <ShoppingCart className="w-8 h-8" />
+          <div className="ml-8 hover:scale-110 cursor-pointer">
+            <ShoppingCart className="w-8 h-8"/>
           </div>
         </div>
       </div>
