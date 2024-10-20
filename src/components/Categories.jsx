@@ -13,7 +13,7 @@ const CategoryIcons = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center py-4">
+    <div className="flex justify-between items-center py-4 bg-white">
       {categories.map((category, index) => (
         <div key={index} className="flex flex-col items-center">
           <span className="text-2xl mb-1">{category.icon}</span>

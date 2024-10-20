@@ -26,7 +26,7 @@ const Header = () => {
               <Globe className="w-4 h-4 mr-1" />
               Tiếng Việt
             </a>
-            <a href="#" className="hover:opacity-80">Đăng Ký</a>
+            <a href="#" className="hover:opacity-80 after:contents">Đăng Ký</a>
             <a href="#" className="hover:opacity-80">Đăng Nhập</a>
           </div>
         </nav>

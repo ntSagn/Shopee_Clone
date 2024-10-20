@@ -1,9 +1,10 @@
-import Home from './pages/Home'
+import React from 'react';
+import { Outlet, Link } from 'react-router-dom';
 
 function App() {
   return (
-    <Home />
-  )
+    <Outlet />
+  );
 }
 
-export default App
+export default App;
